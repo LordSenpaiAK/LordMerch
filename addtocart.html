@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="addtocart.css">
+        <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+        <header>
+        <div class="h">
+            <p class="logo">m</p>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+            <h1>Lord Merch</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="addtocart.html">Store</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </header>
+    <div class="container">
+        <div id="root"></div>
+        <div class="sidebar">
+            <div class="head"><p>My Cart</p></div>
+            <div id="cartItem">Your cart is empty</div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total">$ 0.00</h2>
+            </div>
+        </div>
+    </div>
+    <div id="totalPrice">
+        <button onclick="checkout()">Checkout</button>
+    </div>
+    <script src="addtocart.js"></script>    <footer>
+
+    </footer>
+</body>
+</html>
